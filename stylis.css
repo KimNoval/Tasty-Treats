@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color:lightcoral;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: purple;
+}
+
+h1, h2 {
+    margin: 15px 0;
+    font-family: broadway;
+    color:brown;
+}
+
+main {
+    padding: 20px;
+}
+
+form {
+    background: lightcoral;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: lightpink;
+    border: none;
+    padding: 10px;
+    color: #333;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: papayawhip;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: lightcoral;
+    color: #fff;
+}
+
+body {
+background-image:url(Pink.jpg);
+
+<style>
+    .button-container {
+        display: flex; 
+        justify-content: center; 
+        margin-top: 20px; 
+    }
+    </style>
+}
